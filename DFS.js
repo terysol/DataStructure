@@ -9,7 +9,7 @@ class Node{
     }
 
     remove(data) {
-        this.childre = this.childre.filter(child => child.data === data ? false : true);
+        this.children = this.children.filter(child => child.data === data ? false : true);
     }
 }
 
